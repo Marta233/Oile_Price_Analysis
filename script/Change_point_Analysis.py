@@ -10,7 +10,7 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-class TimeSeriesAnalysis:
+class Change_point_analysis:
     def __init__(self, data):
         """Initialize the TimeSeriesAnalysis class and load the data."""
         logging.info("Loading data %s")
