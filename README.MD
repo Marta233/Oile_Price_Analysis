@@ -1,36 +1,40 @@
-Forecasting Brent Oil Prices: Analyzing Historical Trends and Economic Influences
-Overview
+# Forecasting Brent Oil Prices: Analyzing Historical Trends and Economic Influences 
+
+## Overview
 This repository contains the code and documentation for a project aimed at analyzing the historical price trends of Brent crude oil and identifying the key economic factors that influence its fluctuations. The goal is to develop a robust forecasting model that can help stakeholders make more informed decisions and navigate the volatility of the oil market.
 
-Data
-The dataset includes the daily Brent crude oil prices from 1988 to 2024, along with relevant macroeconomic indicators such as global GDP, inflation rates, and geopolitical events. The data is sourced from reputable public and commercial data providers.
+## Data
+The dataset consists of:
+- **Price information**: daily Brent crude oil prices from 1988 to 2024
+- **Other Data**:  macroeconomic indicators such as global GDP, inflation rates, and geopolitical events. 
 
-Methodology
-The project employs the PELT (Pruned Exact Linear Time) algorithm for change point detection to identify significant structural shifts in the price data. This analysis provides insights into the underlying drivers and potential turning points in the oil market.
+## Methodology
+1. **Data Preprocessing**: Cleaning, normalization, and transformation to prepare raw data for analysis.
+2. **Feature Engineering**: Development of domain-relevant features that may indicate fraud patterns.
+3. **Model Training**: Training a Random Forest classifier and evaluating its performance using metrics like accuracy, precision, and recall.
+4. **Model Interpretability**: Applying LIME and SHAP to understand feature importance and enhance transparency in the decision-making process.
 
-Key Findings
-The Brent crude oil prices have exhibited significant volatility, with multiple change points detected by the PELT algorithm.
-Some of the prominent change points coincide with major global events, such as the 2008 financial crisis, the COVID-19 pandemic, and geopolitical tensions.
-Macroeconomic factors like global GDP growth, inflation, and exchange rates have a substantial influence on the Brent oil prices.
-Seasonal trends and the supply-demand dynamics in the global oil market also play a crucial role in price fluctuations.
-Implications and Recommendations
-The change point analysis provides valuable insights into the timing and magnitude of structural shifts in the Brent oil market, which can inform investment strategies and risk management practices.
-Incorporating the identified economic drivers and market dynamics into a forecasting model can improve the accuracy and reliability of Brent oil price predictions.
-Monitoring the key economic indicators and geopolitical events can help anticipate and respond to potential disruptions in the oil supply and price volatility.
-Diversifying investment portfolios and exploring hedging strategies can help mitigate the risks associated with Brent oil price fluctuations.
-Next Steps
-Develop a comprehensive forecasting model that integrates the historical price trends, economic indicators, and other relevant factors.
-Validate the model's performance and refine it based on ongoing market developments and feedback from stakeholders.
-Explore the potential applications of the forecasting model in various industries, such as energy, transportation, and finance.
-Continuously monitor and update the analysis to ensure the relevance and accuracy of the insights provided.
-Repository Structure
-data/: Contains the Brent oil price and macroeconomic data used in the analysis.
-notebooks/: Jupyter Notebooks with the code and analysis for change point detection and insights.
-models/: Directory for the forecasting model development and evaluation.
-utils/: Utility functions and helper scripts.
-README.md: This file, providing an overview of the project and the repository contents.
-Contributing
-We welcome contributions from the community. If you have any suggestions, improvements, or additional analyses to include, please feel free to submit a pull request or open an issue in the repository.
+## Deployment
+The trained model is packaged and deployed as a web service, enabling integration with the organization’s systems for real-time fraud detection.
 
-License
-This project is licensed under the MIT License.
+## Installation and Usage
+[Please refer to the project documentation for setup instructions and usage guidelines for the fraud detection model.](https://github.com/Marta233/Oile_Price_Analysis.git)
+### 1. Clone the Repository
+To get started, clone the project repository to your local machine:
+```bash
+git clone https://github.com/Marta233/Oile_Price_Analysis.git
+```
+cd Oile_Price_Analysis
+### 2. Set Up a Virtual Environment (venv)
+Create a virtual environment to isolate the project dependencies:
+```bash
+python3 -m my_venv .venv
+```
+```bash
+source .my_venv/Scripts/activate  
+```
+```bash
+pip install -r requirements.txt
+```
+## Contributing
+Contributions are welcome! Please refer to the repository's guidelines for submitting bug reports, feature requests, and pull requests.
