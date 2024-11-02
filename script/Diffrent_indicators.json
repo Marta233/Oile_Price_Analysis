@@ -1,0 +1,155 @@
+{
+  "events": [
+    {
+      "year": "1990-08-02",
+      "event": "Gulf War",
+      "impact": "increase",
+      "factor_type": "political factors",
+      "description": "Oil prices increased due to fears of supply disruption in the Middle East after Iraq invaded Kuwait.",
+      "source": [
+        "EIA analysis on Gulf War impact (1991)",
+        "News archives from The New York Times (August 1990) and CNN (January 1991)"
+      ]
+    },
+    {
+      "year": "1997-11-01",
+      "event": "Asian Financial Crisis",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "Economic downturn in Asia led to reduced oil demand, decreasing prices.",
+      "source": [
+        "World Bank and IMF reports on the crisis (1998)",
+        "News archives from Reuters (November 1997) and Bloomberg (January 1998)"
+      ]
+    },
+    {
+      "year": "1998-10-01",
+      "event": "OPEC Overproduction and Oil Glut",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "OPEC increased production as demand weakened, resulting in oversupply and lower prices.",
+      "source": [
+        "OPEC historical reports (December 1998)",
+        "EIA data (November 1998)",
+        "Articles from BBC (October 1998) and The Economist (September 1998)"
+      ]
+    },
+    {
+      "year": "2001-09-11",
+      "event": "Economic Slowdown after 9/11",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "The 9/11 attacks and ensuing economic downturn decreased oil demand, causing prices to fall.",
+      "source": [
+        "EIA and IEA analyses on economic impacts (September 2001)",
+        "News coverage from The New York Times (September 12, 2001) and CNN (September 11, 2001)"
+      ]
+    },
+    {
+      "year": "2003-03-20",
+      "event": "Iraq War",
+      "impact": "increase",
+      "factor_type": "political factors",
+      "description": "Oil prices increased due to concerns of supply disruptions caused by the U.S. invasion of Iraq.",
+      "source": [
+        "EIA historical price data (April 2003)",
+        "IEA reports (March 2003)",
+        "News articles from BBC (March 20, 2003) and Reuters (April 2003)"
+      ]
+    },
+    {
+      "year": "2007-07-01",
+      "event": "Global Demand Surge and Financial Speculation",
+      "impact": "increase",
+      "factor_type": "economic indicators",
+      "description": "Rapid economic growth in emerging markets and financial speculation led to oil prices reaching over $140 per barrel.",
+      "source": [
+        "EIA and IEA reports on demand trends (July 2008)",
+        "IMF and World Bank economic growth analyses (June 2008)",
+        "News from The Wall Street Journal (July 2008) and Financial Times (August 2008)"
+      ]
+    },
+    {
+      "year": "2008-09-01",
+      "event": "Global Financial Crisis",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "Recession reduced demand, leading oil prices to drop from over $140 to around $40 per barrel.",
+      "source": [
+        "EIA and IEA reports on the financial crisis (October 2008)",
+        "IMF analysis (November 2008)",
+        "News from The Wall Street Journal (December 2008) and Financial Times (January 2009)"
+      ]
+    },
+    {
+      "year": "2011-02-15",
+      "event": "Arab Spring and Libyan Civil War",
+      "impact": "increase",
+      "factor_type": "political factors",
+      "description": "Political instability and conflicts in oil-producing countries led to fears of supply disruptions, raising prices.",
+      "source": [
+        "IEA reports on oil supply disruptions (February 2011)",
+        "News from Bloomberg (March 2011) and Reuters (April 2011)"
+      ]
+    },
+    {
+      "year": "2015-11-01",
+      "event": "U.S. Shale Boom and OPEC Price War",
+      "impact": "decrease",
+      "factor_type": "technological changes",
+      "description": "Surging U.S. shale oil production and OPEC's decision to maintain production led to oversupply and sharp price drops.",
+      "source": [
+        "EIA reports on shale production (December 2014)",
+        "OPEC statements (November 2014)",
+        "News articles from Bloomberg (January 2015) and CNBC (February 2015)"
+      ]
+    },
+    {
+      "year": "2016-12-10",
+      "event": "OPEC and Russia’s Production Cuts (OPEC+)",
+      "impact": "increase",
+      "factor_type": "political factors",
+      "description": "Production cuts by OPEC and allies helped stabilize and raise oil prices by addressing oversupply.",
+      "source": [
+        "OPEC and IEA reports on production agreements (December 2016)",
+        "EIA data on production levels (November 2016)",
+        "News from Financial Times (January 2017) and CNBC (February 2017)"
+      ]
+    },
+    {
+      "year": "2020-04-20",
+      "event": "COVID-19 Pandemic",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "Global lockdowns drastically reduced travel and economic activity, causing a historic drop in oil demand and prices.",
+      "source": [
+        "EIA and IEA special reports on COVID-19 (April 2020)",
+        "IMF analysis (May 2020)",
+        "News articles from BBC (March 2020) and The Guardian (April 2020)"
+      ]
+    },
+    {
+      "year": "2022-03-01",
+      "event": "Post-Pandemic Demand Recovery and Russia-Ukraine War",
+      "impact": "increase",
+      "factor_type": "political factors",
+      "description": "Rapid demand recovery post-COVID and the Russia-Ukraine war contributed to oil price spikes.",
+      "source": [
+        "IEA and EIA reports on post-pandemic recovery and the war’s impact on oil supply (March 2022)",
+        "News from Bloomberg (April 2022), Reuters (May 2022), and BBC (June 2022)"
+      ]
+    },
+    {
+      "year": "2023-09-01",
+      "event": "Concerns About Global Economic Slowdown",
+      "impact": "decrease",
+      "factor_type": "economic indicators",
+      "description": "Concerns about a global recession and rising interest rates reduced demand expectations, contributing to price declines.",
+      "source": [
+        "IEA and EIA monthly reports (September 2023)",
+        "IMF and World Bank economic outlooks (October 2023)",
+        "News articles from Financial Times (November 2023) and Wall Street Journal (December 2023)"
+      ]
+    }
+  ]
+}
