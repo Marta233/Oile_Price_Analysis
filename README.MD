@@ -18,7 +18,7 @@ The dataset consists of:
 The trained model is packaged and deployed as a web service, enabling integration with the organization’s systems for real-time fraud detection.
 
 ## Installation and Usage
-[Please refer to the project documentation for setup instructions and usage guidelines for the fraud detection model.](https://github.com/Marta233/Oile_Price_Analysis.git)
+(https://github.com/Marta233/Oile_Price_Analysis.git)
 ### 1. Clone the Repository
 To get started, clone the project repository to your local machine:
 ```bash
